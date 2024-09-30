@@ -20,15 +20,18 @@ header{
 } 
 
 h1{
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    text-shadow: #555555 3px 3px 3px;
 }
 
 h2{
     color: rgb(255, 255, 255);
+    text-shadow: #555555 3px 3px 3px;
 }
 
 h3 {
     color: #ffffff;
+    text-shadow: #555555 3px 3px 3px;
 }
 
 p{
@@ -40,8 +43,8 @@ p{
 .btn{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #555555;
-    color: grey;
+    background-color: #778685;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 50px;
     transition: background-color 0.3s;
@@ -49,23 +52,24 @@ p{
 }
 
 .btn:hover{
-    background-color: darkgray;
+    background-color: rgb(110, 110, 110);
+    color: white;
 }
 
 .pt1{
- background-color: rgb(128,128,128,0.8);
+ background-color: rgba(199, 195, 141, 0.808);
  border-radius: 50px 50px 0 0;
  box-shadow:5px 5px 5px black;
 }
 
 .pt2{
-    background-color:  rgb(128,128,128,0.8);
+    background-color:  rgba(151, 207, 174, 0.8);
     border-radius: 0px 0px;
     box-shadow:5px 5px 5px black;
 }
 
 .pt3{
-    background-color:  rgb(128,128,128,0.8);
+    background-color:  rgba(134, 247, 255, 0.473);
     border-radius: 0px 0px 50px 50px;
     box-shadow:5px 5px 5px black;
 }
